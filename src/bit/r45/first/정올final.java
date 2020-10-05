@@ -11,6 +11,18 @@ public class 정올final {
 		attempts = 1;
 			
 		while(attempts <= 9) {
+			
+			
+			if(num == 0 ) {
+				System.out.println("종료!");
+				break;
+			}
+			if(num < 0 ) {
+				System.out.println("오류입니다.");
+				break;
+			}
+			
+			
 			int result = flip(num);
 			int result1 = sum(num);
 	 		System.out.println(result + " " + result1);	
